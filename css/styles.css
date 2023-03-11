@@ -1,0 +1,84 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #acccce;
+  
+}
+img{
+    border-radius: 50%;
+}
+
+.hr {
+    border-style: none;
+    border-color: #eaf2f5;
+    border-width: 10px;
+    border-top-style: dotted;
+    width: 5%;
+}
+h1 {
+  font-size: 32px;
+  
+  margin-top: 20px;
+  color: rgb(42, 71, 88);
+  text-shadow: #acccce;
+  
+}
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  color: rgb(42, 71, 88);
+}
+p {
+  font-size: 18px;
+  margin-top: 10px;
+
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li:before {
+    content: "\2022"; /* Add a bullet point */
+    color: #dde5e9; /* Set the color of the bullet point */
+    display: inline-block; /* Make the bullet point inline */
+    width: 1em; /* Set the width of the bullet point */
+    margin-left: -1em; /* Move the bullet point to the left */
+  }
+  a:link{
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #144252;
+    text-underline-offset: none;
+  }
+
+.section {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #42b883;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #54c39f;
+  }
+
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}
